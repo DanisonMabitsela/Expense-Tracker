@@ -1,0 +1,38 @@
+.create-expense-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  height: 100vh;
+  width: 100%;
+}
+
+.create-expense-container h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.create-expense-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-expense-container input {
+  margin-bottom: 8px;
+  padding: 8px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.create-expense-container button {
+  padding: 8px 16px;
+  background-color: #4caf50; /* Set the background color */
+  color: white; /* Set the text color */
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  cursor: pointer;
+}

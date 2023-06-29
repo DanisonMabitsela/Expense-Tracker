@@ -1,0 +1,51 @@
+.admin-component-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  max-width: 800px; /* Adjust the max-width value as needed */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.admin-component-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.admin-component-container p {
+  margin-bottom: 20px;
+}
+
+.admin-component-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-component-container th,
+.admin-component-container td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.admin-component-container th {
+  font-weight: bold;
+}
+
+.admin-component-container button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-component-container button:hover {
+  background-color: #d32f2f;
+}
