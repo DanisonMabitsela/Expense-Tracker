@@ -1,4 +1,4 @@
-Apologies for the oversight. Here's an updated version of the readme with the addition of Helmet middleware for backend security:
+
 
 ---
 
